@@ -1,9 +1,10 @@
-import { JSX } from 'react';
+import React, { JSX } from 'react';
+import LoginPage from './pages/login-page/login-page';
 
 const App = ():JSX.Element => {
   return (
     <div className="App">
-      <h1>Application Set Up!</h1>
+      <LoginPage />
     </div>
   );
 }
